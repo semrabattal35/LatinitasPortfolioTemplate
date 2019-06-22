@@ -6,23 +6,50 @@ body {
 
 main {
 flex: 1 0 auto;
+margin: 0 1em;
 }
-    div.buttonWrapper {
-        margin: 1em;
 
-    }
-    div.button {
-        border: 3px solid red;
-        border-radius: 5px;
-        margin: 2.5%;
-        width: 5%;
-        height: 7%;
-        text-align: center;
-    }
-    div.button:hover {
-background-color: light rgb(90, 158, 170);
-color: white;
-cursor:pointer;
+main.contactPage {
+    padding: 0 2em 2em 2em;
+}
 
+div.buttonWrapper {
+    margin: 1em;
 
-    }
+}
+div.button {
+    border: 5px solid red;
+    border-radius: 5px;
+    margin: 2.5%;
+    width: 150px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.button:hover {
+    background-color: #d32f2f;
+    color: white;
+}
+
+.headshot {
+    margin: 1.5em;
+    width: 80%;
+    height: 80%;
+}
+
+nav {
+    font-family: 'Mali', cursive;
+}
+
+.profileWrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+.imageSection {
+    width: 40%;
+}
+.buttonSection {
+    width: 60%;
+}
